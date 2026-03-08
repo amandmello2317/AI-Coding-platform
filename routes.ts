@@ -1,5 +1,5 @@
 export const publicRoutes: string[] = [
-
+    "/login.svg"
 ]
 
 

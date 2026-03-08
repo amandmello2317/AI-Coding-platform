@@ -1,3 +1,4 @@
+import SignInFormClient from '@/modules/auth/components/sigin-in-form'
 import Image from 'next/image'
 import React from 'react'
 
@@ -9,8 +10,10 @@ const Page = () => {
                 alt="Logo"
                 width={300}
                 height={300}
-                priority
+                className='m-6 object-cover'
+            // priority     
             />
+            <SignInFormClient />
         </>
     )
 }
