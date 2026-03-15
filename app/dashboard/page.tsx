@@ -21,13 +21,15 @@ const Page = async () => {
                     playgronds && playgronds.length === 0 ? (
                         <EmptyState />
                     ) : (
-                        <ProjectTable
-                            projects={playgronds}
-                            onDeleteProject={() => { }}
-                            onUpdateProject={() => { }}
-                            onDuplicateProject={() => { }}
+                        <>
+                        </>
+                        // <ProjectTable
+                        //     projects={playgronds}
+                        //     onDeleteProject={() => { }}
+                        //     onUpdateProject={() => { }}
+                        //     onDuplicateProject={() => { }}
 
-                        />
+                        // />
                     )
                 }
 
